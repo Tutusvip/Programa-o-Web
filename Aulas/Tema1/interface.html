@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>tema1</title>
+    <link rel="stylesheet" href="gliter.css">
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <form id="formSalario">
+        <input type="number" id="gross-salary" placeholder="Salário Bruto" required>
+        <input type="number" id="desconto" placeholder="Descontos" required>
+        <input type="number" id="beneficio" placeholder="Benefício" required>
+        <button type="submit">Adiciona o Salário</button>
+    </form>
+    <section id="resultados">
+        <h2 id="maior-salario">Maior Salário do funcionario:</h2>
+        <h2 id="total-descontos">Soma dos Descontos: </h2>
+    </section>
+    <section id="lista-salario">
+        <h2>Salário Líquido Registrado:</h2>
+        <ul id="lista-salarios"></ul>
+    </section>
+    <script src="calculo.js"></script>
+</body>
+</html>
